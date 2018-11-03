@@ -51,7 +51,13 @@ $("button").on("click", function () {
 
                 // Setting the src attribute of the image to a property pulled off the result item
                 //add attributes "data state, data animate, etc so they can be referenced below"
-                cityImage.attr("src", results[i].images.fixed_height.url, "data-state", "data-animate", "data-still");
+                cityImage.attr({
+                    "src": results[i].images.fixed_height_still.url, 
+                    "data-state": "still",
+                    "data-animate": results[i].images.fixed_height.url,
+                    "data-still": results[i].images.fixed_height_still.url
+                });
+                    
                 cityImage.addClass("gif");
 
                             // Appending the paragraph and image tag to the cityDiv
