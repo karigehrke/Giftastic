@@ -1,0 +1,33 @@
+body {
+    background-image: url("../images/GettyImages-172759320.jpg");
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center top;
+    max-width: auto;
+}
+
+#topics {
+    padding: 10px;
+    margin: auto 100%;
+
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #3366CC;
+}
+
+#gifs-appear-here {
+    margin-left: 5%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
