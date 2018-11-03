@@ -2,7 +2,7 @@
 
 <html lang="en-us">
 
-  <head>
+<head>
 
     <meta charset="UTF-8">
     <title>Giftastic Search</title>
@@ -11,42 +11,53 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
 
-     <!-- Added a link to Bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Added a link to Bootstrap-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-  </head>
+   
 
-  <body>
+</head>
 
-        <nav class="navbar navbar-expand-xl|lg|md|sm sticky-top mb-3 mw-100 p-0">
-                <h1 class="title text-center m-3">Pick a City!</h1>
-</nav>
+<body>
+    <nav class="navbar navbar-expand-xl|lg|md|sm sticky-top mb-3 mw-100 p-0">
+        <h1 class="title text-center m-3">Pick a City!</h1>
+    </nav>
+
+    <!-- <div class="card-columns">
+        <div class="card">
+          <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div> -->
     <div class="row">
         <div class="column">
-               
-            </div>
-        </div>
+
+             <!-- need to figure out how to take the data and cycle it through my array to make a new button in js
+                 <form>
+                <div class="form-group row p-3 ml-3">
+                        <label for="city-search">Search your own city gif</label>
+                        <input class="form-control" id="city-search" placeholder="city here" type="text">
+                    </div>
+                    <button type="button" class="btn btn-danger float-right" id="add-city">Submit</button>
+                </form>  -->
+
 
             <div class="row">
                 <div class="column">
-            <div class="gif m-3 p-3" id="topics"></div>
+                    <div class="gif m-3 p-3" id="topics"></div>
 
-        <div class="image-holder" id="gifs-appear-here"></div>
+                    <div class="image-holder" id="gifs-appear-here"></div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
-
-    
-
-
-
 
     <!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Script -->
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-
-  </body>
+</body>
 
 </html>
